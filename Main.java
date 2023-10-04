@@ -1,30 +1,19 @@
-
 import java.util.Scanner;
 
-public class Main {
-
+public class testing {
     public static void main(String[] args) {
+        int i,n,object=0;
+        Scanner input= new Scanner(System.in);
+        System.out.print("Hwo many step do you want");
+        n= input.next.Int();
+        int number1;
+        int number2;
+        for (i=1;i<=n;i++) {
+            System.out.print(number2 +" ");
+            object=number1+number2;
+            number1=number2;
 
-        Scanner input = new Scanner(System.in);
 
-        System.out.print("Bir sayı giriniz : ");
-        int number = input.nextInt();
-        int total = 0;
-
-        for (int i = 1; i < number; i++) {
-            if (number % i == 0) {
-                total = total + i;
-            }
-        }
-        if (number < 1) {
-            System.out.println("Geçersiz sayı.");
-            return;
-        }
-
-        if (total == number) {
-            System.out.println("Mükemmel sayıdır.");
-        } else {
-            System.out.println("Mükemmel sayı değildir.");
         }
     }
 
